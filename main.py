@@ -36,7 +36,7 @@ def solve() -> None:
 
         out.append(str(best))
 
-    sys.stdout.write("\n".join(out))
+    sys.stdout.write("\n".join(out) + "\n")
 
 
 if __name__ == "__main__":
